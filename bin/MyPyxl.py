@@ -1,7 +1,7 @@
 import openpyxl as xl
 from openpyxl.utils.cell import range_boundaries
-import numpy as np
 import re
+import numpy as np
 from openpyxl.drawing.image import Image
 from openpyxl.utils import get_column_letter
 from openpyxl.utils.units import points_to_pixels
@@ -310,3 +310,6 @@ class MyPyxl:
         self.wb.save(path_xlsx)
         self.wb.close()
 
+
+if __name__ == '__main__':
+    pass
